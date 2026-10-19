@@ -1,0 +1,8 @@
+{"jsonrpc":"2.0","id":1,"method":"initialize","params":{"protocolVersion":"2025-06-18","capabilities":{},"clientInfo":{"name":"poc-msd","version":"0"}}}
+{"jsonrpc":"2.0","method":"notifications/initialized"}
+{"jsonrpc":"2.0","id":2,"method":"tools/list"}
+{"jsonrpc":"2.0","id":3,"method":"tools/call","params":{"name":"run_command","arguments":{"command":"file.new","params":{"width":1080,"height":1080,"units":"Pixels"}}}}
+{"jsonrpc":"2.0","id":4,"method":"tools/call","params":{"name":"draw_shape","arguments":{"shape":"rectangle","x":0,"y":0,"width":1080,"height":1080,"fill":"#1a1a2e","stroke":"none"}}}
+{"jsonrpc":"2.0","id":5,"method":"tools/call","params":{"name":"draw_shape","arguments":{"shape":"star","cx":540,"cy":430,"radius1":220,"radius2":90,"points":5,"fill":"#e93d82","stroke":"none"}}}
+{"jsonrpc":"2.0","id":6,"method":"tools/call","params":{"name":"add_text","arguments":{"text":"MCP SERVER OK","size":80,"x":180,"y":760,"color":"#ffffff"}}}
+{"jsonrpc":"2.0","id":7,"method":"tools/call","params":{"name":"export","arguments":{"path":"D:/dev/Node.js/InsanoNetwork/proyectos/08-msd/poc-vectorcraft/results/mcp_test.png","format":"png"}}}

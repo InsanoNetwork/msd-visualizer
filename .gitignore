@@ -1,0 +1,11 @@
+﻿# dependencias y builds
+node_modules/
+dist/
+.astro/
+
+# repo local de terceros (VectorCraft engine, 108 MB) — no es parte de nuestro código
+vectorcraft/
+
+# sistema
+Thumbs.db
+Desktop.ini

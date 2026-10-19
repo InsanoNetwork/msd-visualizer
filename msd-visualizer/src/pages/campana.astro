@@ -1,0 +1,19 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Gallery from '../components/Gallery.svelte';
+import { loadManifest, buildPieces } from '../lib/campaign';
+
+const manifest = loadManifest();
+const pieces = buildPieces(manifest);
+---
+
+<Layout title="Campaign-0001 · MSD Visualizer">
+  <div class="mb-6">
+    <h1 class="text-2xl font-semibold tracking-tight">Amanecer — campaña octubre</h1>
+    <p class="mt-1 text-sm text-neutral-400">
+      20 piezas del brief mensual. Las imágenes son previews reales (270 px) regeneradas del documento
+      editable {manifest.parts[0].path.split('/').pop()}.
+    </p>
+  </div>
+  <Gallery client:load pieces={pieces.map((p) => ({ ...p }))} />
+</Layout>

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "servers": {
+      "vectorcraft": {
+        "type": "local",
+        "command": [
+          "C:\\Program Files\\VectorCraft\\vectorcraft-cli.exe",
+          "mcp",
+          "--headless"
+        ],
+        "cwd": "D:\\dev\\Node.js\\InsanoNetwork\\proyectos\\08-msd\\poc-vectorcraft"
+      }
+    }
+  }
+}

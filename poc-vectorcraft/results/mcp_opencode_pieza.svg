@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1080" height="1080" viewBox="0 0 1080 1080">
+  <title>Untitled-3</title>
+  <g id="Layer_1" data-name="Layer 1">
+    <path d="M0 0 L1080 0 L1080 1080 L0 1080 Z" fill="#f3ead7"/>
+    <path d="M350 470 C350 354.02 444.02 260 560 260 C675.98 260 770 354.02 770 470 C770 585.98 675.98 680 560 680 C444.02 680 350 585.98 350 470 Z" fill="#e9aa3d"/>
+    <path d="M290 480 C290 375.066 375.066 290 480 290 C584.934 290 670 375.066 670 480 C670 584.934 584.934 670 480 670 C375.066 670 290 584.934 290 480 Z" fill="#6f4e37"/>
+    <path d="M640 430 L695 430 C723.719 430 747 453.281 747 482 C747 510.719 723.719 534 695 534 L640 534" fill="none" stroke="#6f4e37" stroke-width="18" stroke-miterlimit="10"/>
+    <path d="M470 330 C460 300 500 290 490 258" fill="none" stroke="#3b2b20" stroke-width="9" stroke-miterlimit="10"/>
+    <path d="M550 330 C540 300 580 290 570 258" fill="none" stroke="#3b2b20" stroke-width="9" stroke-miterlimit="10"/>
+    <text transform="matrix(1 0 0 1 170 760)" x="0" y="0" xml:space="preserve" font-family="&apos;Source Sans 3&apos;" font-size="120" fill="#3b2b20"><tspan x="0" y="0">AMANECER</tspan></text>
+    <text transform="matrix(1 0 0 1 300 890)" x="0" y="0" xml:space="preserve" font-family="&apos;Source Sans 3&apos;" font-size="52" fill="#7a5c44"><tspan x="0" y="0">Café de especialidad ✅ ñ á á ó</tspan></text>
+    <path d="M333 950 L747 950 C770.748 950 790 969.252 790 993 L790 993 C790 1016.748 770.748 1036 747 1036 L333 1036 C309.252 1036 290 1016.748 290 993 L290 993 C290 969.252 309.252 950 333 950 Z" fill="#e93d82"/>
+    <text transform="matrix(1 0 0 1 410 975)" x="0" y="0" xml:space="preserve" font-family="&apos;Source Sans 3&apos;" font-size="40" fill="#ffffff"><tspan x="0" y="0">2x1 esta semana</tspan></text>
+  </g>
+</svg>

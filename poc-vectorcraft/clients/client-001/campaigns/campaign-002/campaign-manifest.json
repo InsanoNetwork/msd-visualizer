@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "campaignId": "campaign-002",
+  "clientId": "client-001",
+  "editableFileLimitBytes": 83886080,
+  "brandKitRef": null,
+  "assetsPolicy": "vector-only (sin raster embebido); tipografía convertida a texto editable",
+  "revision": 1,
+  "worker": "vectorcraft-cli 0.3.1 · mcp --headless · agente OpenCode (Code Mode)",
+  "parts": [
+    {
+      "partId": "part-001",
+      "path": "clients/client-001/campaigns/campaign-002/design/campaign-002-buho.vectorcraft",
+      "strategy": "one-file-under-limit (20 artboards máx.; 4 usadas)",
+      "sizeBytes": 357120,
+      "limitStatus": "ok (0.43% del límite de 80 MiB)",
+      "revision": 1,
+      "sha256": "602f946c34bea42935c6ec8e14e1bc68c4d57f9c552b3d26b2f250743e024a7c",
+      "items": [
+        { "pieceId": "buho-001", "artboard": 0, "boardName": "buho-001", "channel": "feed", "formatSize": "1080x1080", "palette": "buho-nocturno", "theme": "Ramen de medianoche" },
+        { "pieceId": "buho-002", "artboard": 1, "boardName": "buho-002", "channel": "feed", "formatSize": "1080x1080", "palette": "buho-nocturno", "theme": "Tteokbokki nocturno" },
+        { "pieceId": "buho-003", "artboard": 2, "boardName": "buho-003", "channel": "feed", "formatSize": "1080x1080", "palette": "buho-nocturno", "theme": "Postres asiáticos" },
+        { "pieceId": "buho-004", "artboard": 3, "boardName": "buho-004", "channel": "feed", "formatSize": "1080x1080", "palette": "buho-nocturno", "theme": "Bánh mì nocturno" }
+      ]
+    }
+  ],
+  "exports": [
+    { "pieceId": "buho-001", "path": "clients/client-001/campaigns/campaign-002/exports/campaign-002-buho-001.png", "type": "png", "dimensions": "1080x1080", "sizeBytes": 75349, "sha256": "378f6ec82637ce8e6ea2e0347de6f932da9bf9702ad821e8815820d5cd785374" },
+    { "pieceId": "buho-002", "path": "clients/client-001/campaigns/campaign-002/exports/campaign-002-buho-002.png", "type": "png", "dimensions": "1080x1080", "sizeBytes": 72060, "sha256": "a2cb90a8625867d087fdd3a605c3a6122c9cad05464a3e8a0f4ccdcb2327dd7b" },
+    { "pieceId": "buho-003", "path": "clients/client-001/campaigns/campaign-002/exports/campaign-002-buho-003.png", "type": "png", "dimensions": "1080x1080", "sizeBytes": 74598, "sha256": "d7705a6b176a30c1a1399542ae81404030a63c3a0e08e4d21c6797dde6919f15" },
+    { "pieceId": "buho-004", "path": "clients/client-001/campaigns/campaign-002/exports/campaign-002-buho-004.png", "type": "png", "dimensions": "1080x1080", "sizeBytes": 68690, "sha256": "a193bea8cc4c741340f4aa2aafa42d3c3ca8fb2e20c94225dd707ed5060a7062" }
+  ],
+  "previews": [
+    { "pieceId": "buho-001", "path": "clients/client-001/campaigns/campaign-002/previews/campaign-002-buho-001.png" },
+    { "pieceId": "buho-002", "path": "clients/client-001/campaigns/campaign-002/previews/campaign-002-buho-002.png" },
+    { "pieceId": "buho-003", "path": "clients/client-001/campaigns/campaign-002/previews/campaign-002-buho-003.png" },
+    { "pieceId": "buho-004", "path": "clients/client-001/campaigns/campaign-002/previews/campaign-002-buho-004.png" }
+  ]
+}

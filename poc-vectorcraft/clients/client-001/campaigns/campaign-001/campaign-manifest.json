@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "campaignId": "campaign-001",
+  "clientId": "client-001",
+  "editableFileLimitBytes": 83886080,
+  "brandKitRef": null,
+  "assetsPolicy": "external-assets-excluded",
+  "revision": 1,
+  "worker": "mcp-headless via OpenCode (vectorcraft-cli 0.3.1)",
+  "parts": [
+    {
+      "partId": "part-001",
+      "path": "design/campaign-001.vectorcraft",
+      "strategy": "one-file-under-limit (20 artboards íntegras; §14.5)",
+      "items": [
+        { "pieceId": "piece-001", "artboard": 0,  "boardName": "pieza-001", "channel": "feed",   "formatSize": "1080x1080", "palette": "amanecer", "theme": "Oferta de temporada" },
+        { "pieceId": "piece-002", "artboard": 1,  "boardName": "pieza-002", "channel": "feed",   "formatSize": "1080x1080", "palette": "arandano", "theme": "Nuevo producto" },
+        { "pieceId": "piece-003", "artboard": 2,  "boardName": "pieza-003", "channel": "feed",   "formatSize": "1080x1080", "palette": "espresso", "theme": "Evento en tienda" },
+        { "pieceId": "piece-004", "artboard": 3,  "boardName": "pieza-004", "channel": "feed",   "formatSize": "1080x1080", "palette": "menta",    "theme": "Testimonio cliente" },
+        { "pieceId": "piece-005", "artboard": 4,  "boardName": "pieza-005", "channel": "feed",   "formatSize": "1080x1080", "palette": "amanecer", "theme": "Tip de la marca" },
+        { "pieceId": "piece-006", "artboard": 5,  "boardName": "pieza-006", "channel": "feed",   "formatSize": "1080x1080", "palette": "arandano", "theme": "Oferta de temporada" },
+        { "pieceId": "piece-007", "artboard": 6,  "boardName": "pieza-007", "channel": "feed",   "formatSize": "1080x1080", "palette": "espresso", "theme": "Nuevo producto" },
+        { "pieceId": "piece-008", "artboard": 7,  "boardName": "pieza-008", "channel": "feed",   "formatSize": "1080x1080", "palette": "menta",    "theme": "Evento en tienda" },
+        { "pieceId": "piece-009", "artboard": 8,  "boardName": "pieza-009", "channel": "feed",   "formatSize": "1080x1080", "palette": "amanecer", "theme": "Testimonio cliente" },
+        { "pieceId": "piece-010", "artboard": 9,  "boardName": "pieza-010", "channel": "feed",   "formatSize": "1080x1080", "palette": "arandano", "theme": "Tip de la marca" },
+        { "pieceId": "piece-011", "artboard": 10, "boardName": "pieza-011", "channel": "feed",   "formatSize": "1080x1080", "palette": "espresso", "theme": "Oferta de temporada" },
+        { "pieceId": "piece-012", "artboard": 11, "boardName": "pieza-012", "channel": "feed",   "formatSize": "1080x1080", "palette": "menta",    "theme": "Nuevo producto" },
+        { "pieceId": "piece-013", "artboard": 12, "boardName": "pieza-013", "channel": "feed",   "formatSize": "1080x1080", "palette": "amanecer", "theme": "Evento en tienda" },
+        { "pieceId": "piece-014", "artboard": 13, "boardName": "pieza-014", "channel": "feed",   "formatSize": "1080x1080", "palette": "arandano", "theme": "Testimonio cliente" },
+        { "pieceId": "piece-015", "artboard": 14, "boardName": "pieza-015", "channel": "feed",   "formatSize": "1080x1080", "palette": "espresso", "theme": "Tip de la marca" },
+        { "pieceId": "piece-016", "artboard": 15, "boardName": "pieza-016", "channel": "feed",   "formatSize": "1080x1080", "palette": "menta",    "theme": "Oferta de temporada" },
+        { "pieceId": "piece-017", "artboard": 16, "boardName": "pieza-017", "channel": "feed",   "formatSize": "1080x1080", "palette": "amanecer", "theme": "Nuevo producto" },
+        { "pieceId": "piece-018", "artboard": 17, "boardName": "pieza-018", "channel": "feed",   "formatSize": "1080x1080", "palette": "arandano", "theme": "Evento en tienda" },
+        { "pieceId": "piece-019", "artboard": 18, "boardName": "pieza-019", "channel": "feed",   "formatSize": "1080x1080", "palette": "espresso", "theme": "Testimonio cliente" },
+        { "pieceId": "piece-020", "artboard": 19, "boardName": "pieza-020", "channel": "feed",   "formatSize": "1080x1080", "palette": "menta",    "theme": "Tip de la marca" }
+      ],
+      "sizeBytes": 647015,
+      "limitStatus": "under (0.77% of limit)",
+      "revision": 1,
+      "sha256": "a2f725755837ac25fb0493bf3f05f4a93411a0dce970cafb5ae4b643e2291d2c"
+    }
+  ],
+  "exports": [
+    { "pieceId": "piece-001", "path": "exports/campaign-001-pieza-001.png", "type": "png", "dimensions": "1080x1080", "sizeBytes": 58712, "sha256": "68c75339b839862992d34692f7752082c49688eda621a2250fc12d3ba5c416ec" },
+    { "pieceId": "piece-002", "path": "exports/campaign-001-pieza-002.png", "type": "png", "dimensions": "1080x1080", "sizeBytes": 55347, "sha256": "5779cd7795fcb0db8f593f0e3d8415471c67a15d2c6358ba485ff56e5192214c" },
+    { "pieceId": "piece-003", "path": "exports/campaign-001-pieza-003.png", "type": "png", "dimensions": "1080x1080", "sizeBytes": 52446, "sha256": "e051134b6ed55ffc423e6869146ea251504e7237f6f87e6369e143f7347bb0aa" },
+    { "pieceId": "piece-004", "path": "exports/campaign-001-pieza-004.png", "type": "png", "dimensions": "1080x1080", "sizeBytes": 52223, "sha256": "8613db7d9b7b7edcf38e81081a87ad1c85b63362d82c38ea49ccd9ff714c3a50" },
+    { "pieceId": "piece-005", "path": "exports/campaign-001-pieza-005.png", "type": "png", "dimensions": "1080x1080", "sizeBytes": 51583, "sha256": "d31e2dbe9d0a02b42d207320ab43c17eb3d4060978e6483c5960a0abf3459045" },
+    { "pieceId": "piece-006", "path": "exports/campaign-001-pieza-006.png", "type": "png", "dimensions": "1080x1080", "sizeBytes": 59815, "sha256": "990e817b717010d6dd718140c3d03dbf074ad89c5b8aced1268040297b029ec7" },
+    { "pieceId": "piece-007", "path": "exports/campaign-001-pieza-007.png", "type": "png", "dimensions": "1080x1080", "sizeBytes": 53596, "sha256": "8bf871cc01e4093eae7710d1f1c4249455e8611de985978bc26d07f3b9ee7ec1" },
+    { "pieceId": "piece-008", "path": "exports/campaign-001-pieza-008.png", "type": "png", "dimensions": "1080x1080", "sizeBytes": 54135, "sha256": "68260eacf8271148271ec890b19ab5341e3c12f5d2d1f0a728933abce73fd97f" },
+    { "pieceId": "piece-009", "path": "exports/campaign-001-pieza-009.png", "type": "png", "dimensions": "1080x1080", "sizeBytes": 51934, "sha256": "5a193040a2378d9027432895748ce85691abcc8d7397e5749b1a5d2e2e55ee4f" },
+    { "pieceId": "piece-010", "path": "exports/campaign-001-pieza-010.png", "type": "png", "dimensions": "1080x1080", "sizeBytes": 51922, "sha256": "587e8dc08b2739dd7e1ed1dc08af8581ac7f89001355364350740dc8388dfba7" },
+    { "pieceId": "piece-011", "path": "exports/campaign-001-pieza-011.png", "type": "png", "dimensions": "1080x1080", "sizeBytes": 57139, "sha256": "6d6575714ce0b200b961ea7168459d63b29612a9225fb5bfadb0521193f351a0" },
+    { "pieceId": "piece-012", "path": "exports/campaign-001-pieza-012.png", "type": "png", "dimensions": "1080x1080", "sizeBytes": 55220, "sha256": "5578c778b713272b0f054fb1d277262181f68beeebfe5e14d1b15979d897283a" },
+    { "pieceId": "piece-013", "path": "exports/campaign-001-pieza-013.png", "type": "png", "dimensions": "1080x1080", "sizeBytes": 52855, "sha256": "4099aaa2056f3dc3c4e2c1b109d8d8ad10915b234d144cf6e9aff9fade1dff1b" },
+    { "pieceId": "piece-014", "path": "exports/campaign-001-pieza-014.png", "type": "png", "dimensions": "1080x1080", "sizeBytes": 51653, "sha256": "5ecaf46ecb69f844d9152c6b282015539f689caa6ff6e2bb9ada61a86db394cf" },
+    { "pieceId": "piece-015", "path": "exports/campaign-001-pieza-015.png", "type": "png", "dimensions": "1080x1080", "sizeBytes": 50433, "sha256": "d7862c103b51919b11414418082b6ab17c420c0e0c182f834668051badfdd0e2" },
+    { "pieceId": "piece-016", "path": "exports/campaign-001-pieza-016.png", "type": "png", "dimensions": "1080x1080", "sizeBytes": 59574, "sha256": "cbe20e65388d117ccf252dc7c9f96483bc8590d5c1211eb31c2926e4ccc173ab" },
+    { "pieceId": "piece-017", "path": "exports/campaign-001-pieza-017.png", "type": "png", "dimensions": "1080x1080", "sizeBytes": 54116, "sha256": "6c0f0b136e58ebb4ad5e39e3ece43f34bbabaf897d6915cc4bda204de654e99f" },
+    { "pieceId": "piece-018", "path": "exports/campaign-001-pieza-018.png", "type": "png", "dimensions": "1080x1080", "sizeBytes": 53473, "sha256": "fffc10b9e6b7223cabd38dee78c99658241bbc4608248d42b5e01d610e5f06ab" },
+    { "pieceId": "piece-019", "path": "exports/campaign-001-pieza-019.png", "type": "png", "dimensions": "1080x1080", "sizeBytes": 50763, "sha256": "493f02cf2eb6c29d1489435790703096d787347cc15061c0d7bc02f96ba3b0ab" },
+    { "pieceId": "piece-020", "path": "exports/campaign-001-pieza-020.png", "type": "png", "dimensions": "1080x1080", "sizeBytes": 52445, "sha256": "817bf96cb3da990a83620239b172b27302219f43fb274657a438edac91a295cc" }
+  ],
+  "previews": [
+    { "notice": "20 miniaturas 270x270 (scale 0.25) en previews/campaign-001-pieza-001..020.png (mismo stem sin hash aún)" }
+  ]
+}

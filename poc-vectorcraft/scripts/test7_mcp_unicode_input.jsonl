@@ -1,0 +1,4 @@
+{"jsonrpc":"2.0","id":1,"method":"initialize","params":{"protocolVersion":"2025-06-18","capabilities":{},"clientInfo":{"name":"poc-msd","version":"0"}}}
+{"jsonrpc":"2.0","method":"notifications/initialized"}
+{"jsonrpc":"2.0","id":2,"method":"tools/call","params":{"name":"add_text","arguments":{"text":"Café de especialidad ✅ ñ á é í ó ú","size":56,"x":100,"y":300,"color":"#333333"}}}
+{"jsonrpc":"2.0","id":3,"method":"tools/call","params":{"name":"export","arguments":{"path":"D:/dev/Node.js/InsanoNetwork/proyectos/08-msd/poc-vectorcraft/results/test7_acentos_unicode.png","format":"png"}}}

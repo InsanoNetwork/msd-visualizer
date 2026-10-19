@@ -1,0 +1,7 @@
+{"timestamp":"2026-10-19T00:00:00.000Z","actorId":"agent:opencode","action":"brief.recibido","brief":{"marca":"El Búho Nocturno","logo":"búho","colores":"morados, nocturno","concepto":"cena coreana y asiática","promo":"$120 · 2×1 los lunes después de las 10 pm","logoPos":"arriba-izquierda de cada card"}}
+{"timestamp":"2026-10-19T00:00:05.000Z","actorId":"agent:opencode","action":"plan.generado","pieces":4,"themes":["Ramen de medianoche","Tteokbokki nocturno","Postres asiáticos","Bánh mì nocturno"],"palette":"buho-nocturno"}
+{"timestamp":"2026-10-19T00:00:30.000Z","actorId":"agent:opencode","action":"design.dibujado","tool":"mcp (Code Mode)","artboards":4,"result":"ok"}
+{"timestamp":"2026-10-19T00:00:40.000Z","actorId":"agent:opencode","action":"design.guardado","path":"design/campaign-002-buho.vectorcraft","sizeBytes":357120,"sha256":"602f946c34bea42935c6ec8e14e1bc68c4d57f9c552b3d26b2f250743e024a7c","warnings":0}
+{"timestamp":"2026-10-19T00:00:55.000Z","actorId":"agent:opencode","action":"export.png.lote","count":4,"dimensions":"1080x1080","scalePreviews":0.25,"warnings":0,"revision":"v2 (v1 descartada por solapes de baseline tipográfica)"}
+{"timestamp":"2026-10-19T00:01:10.000Z","actorId":"agent:opencode","action":"qa.visual","notes":["Hangul 월요일 renderiza con Malgun Gothic","chip de precio recentrado (v2)","kicker separado del titular (v2)"]}
+{"timestamp":"2026-10-19T00:01:20.000Z","actorId":"agent:opencode","action":"manifest.escrito","schemaVersion":1,"exportsConSha256":4}

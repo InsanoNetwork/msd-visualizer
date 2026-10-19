@@ -1,0 +1,68 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { loadManifest, kWc } from '../lib/campaign';
+
+const manifest = loadManifest();
+const part = manifest.parts[0];
+const limitPct = ((part.sizeBytes / manifest.editableFileLimitBytes) * 100).toFixed(2);
+---
+
+<Layout title="Inicio · MSD Visualizer">
+  <h1 class="text-2xl font-semibold tracking-tight">Flujo del producto — maqueta navegativa</h1>
+  <p class="mt-2 max-w-3xl text-neutral-400">
+    Este visualizador recorre los pasos del flujo ideal (§3 del plan maestro) usando los datos
+    <strong class="text-neutral-300">reales</strong> generados en la PoC de VectorCraft (lote de 20 piezas vía MCP).
+    Sin autenticación ni roles todavía: primero la forma, después el sistema.
+  </p>
+
+  <!-- flujo horizontal -->
+  <div class="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+    <a href="/brief" class="group rounded-xl border border-neutral-800 bg-neutral-900 p-5 transition hover:border-amber-400/60">
+      <div class="text-xs text-neutral-500">paso 1–3</div>
+      <div class="mt-1 font-medium">Brand kit + Brief</div>
+      <p class="mt-2 text-sm text-neutral-400">Registrar marca (paleta, tono) y redactar el brief con nº de piezas y canales.</p>
+      <div class="mt-4 text-xs text-amber-300 group-hover:underline">Ir al brief mock →</div>
+    </a>
+    <a href="/campana" class="group rounded-xl border border-neutral-800 bg-neutral-900 p-5 transition hover:border-amber-400/60">
+      <div class="text-xs text-neutral-500">paso 4–8</div>
+      <div class="mt-1 font-medium">Generación + revisión</div>
+      <p class="mt-2 text-sm text-neutral-400">Galería de las 20 piezas generadas, filtro por paleta/tema, estados de aprobación.</p>
+      <div class="mt-4 text-xs text-amber-300 group-hover:underline">Ver campaña →</div>
+    </a>
+    <a href="/manifiesto" class="group rounded-xl border border-neutral-800 bg-neutral-900 p-5 transition hover:border-amber-400/60">
+      <div class="text-xs text-neutral-500">trazabilidad</div>
+      <div class="mt-1 font-medium">Manifiesto + bitácora</div>
+      <p class="mt-2 text-sm text-neutral-400">Documento editable único, hashes sha256 y auditoría de acciones (§14.5).</p>
+      <div class="mt-4 text-xs text-amber-300 group-hover:underline">Inspeccionar →</div>
+    </a>
+    <div class="rounded-xl border border-dashed border-neutral-800 bg-neutral-900/40 p-5 text-neutral-500">
+      <div class="text-xs">más adelante</div>
+      <div class="mt-1 font-medium">Editor híbrido + calendario</div>
+      <p class="mt-2 text-sm">Edición visual, regeneración por IA, calendario y publicación por canal. Fuera del alcance actual.</p>
+    </div>
+  </div>
+
+  <!-- resumen de la campaña PoC -->
+  <section class="mt-10 rounded-2xl border border-neutral-800 bg-neutral-900 p-6">
+    <h2 class="font-semibold">Campaign-0001: {manifest.clientId}</h2>
+    <p class="text-sm text-neutral-400">{manifest.worker}</p>
+    <div class="mt-4 grid gap-4 text-sm sm:grid-cols-4">
+      <div class="rounded-lg bg-neutral-950 p-4">
+        <div class="text-2xl font-semibold text-amber-300">{part.items.length}</div>
+        <div class="text-neutral-400">piezas en 1 archivo editable</div>
+      </div>
+      <div class="rounded-lg bg-neutral-950 p-4">
+        <div class="text-2xl font-semibold text-amber-300">{kWc(part.sizeBytes)}</div>
+        <div class="text-neutral-400">peso del .vectorcraft ({limitPct}% del límite 80 MiB)</div>
+      </div>
+      <div class="rounded-lg bg-neutral-950 p-4">
+        <div class="text-2xl font-semibold text-amber-300">{manifest.exports.length}</div>
+        <div class="text-neutral-400">PNG 1080×1080 exportados (0 warnings)</div>
+      </div>
+      <div class="rounded-lg bg-neutral-950 p-4">
+        <div class="text-2xl font-semibold text-amber-300">4×5</div>
+        <div class="text-neutral-400">paletas × temas variados</div>
+      </div>
+    </div>
+  </section>
+</Layout>
